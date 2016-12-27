@@ -16,32 +16,40 @@
             <div class="col-md-12">
                 <h1 class="text-center titulo">Positivo/ Negativo</h1>
                 <hr>
-                <p class="text-center" style="font-size:25px">Retorna 1 si uno es positivo y el otro negativo, excepto si el parametro negativo es true, entonces retorna 1 si ambos son negativos, caso contrario retorna 0.</p>
+                <p class="text-center" style="font-size:25px">Retorna 1 si un número es positivo y el otro negativo y el parámetro negativo es falso, si el parametro negativo es verdadero, entonces retorna 1 si ambos son negativos, caso contrario retorna 0.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4">
-                <label for="valor_a">Valor A: </label>
+                <label for="valor_a">Ingresa un número entero positivo o negativo: </label>
                 <input type="text" id="valor_a" placeholder="0">
             </div>
             <div class="col-md-4">
-                <label for="valor_b">Valor B: </label>
+                <label for="valor_b">Ingresa un número entero positivo o negativo: </label>
                 <input type="text" id="valor_b" placeholder="0">
             </div>
             <div class="col-md-4">
-                <label for="parametro">Negativo </label>
+                <label for="parametro">Negativo? </label>
                 <select class="form-control" id="parametro">
-                    <option value="1">True</option>
-                    <option value="2">False</option>
+                    <option value="1">Verdadero</option>
+                    <option value="2">Falso</option>
                 </select>
             </div>
         </div>
-        <h3 class="text-center">¿Suma 10?</h3>
+        <h3 class="text-center">¿Qué saldra?</h3>
         <h1 id="salida" class="text-center"></h1>
         <h2 id="salidaDos" class="text-center alert-danger"></h2>
         
         <p class="text-center"><button onclick="evaluar()" class="btn">Calcular</button></p>
+        
+        <a class="btn-links btn-ant" href="https://fabiampuero.github.io/ejercicio-10/">Anterior</a>
+        <a class="btn-links btn-sgte" href="">Siguiente</a>
     </div>
+    <footer>
+        <div class="container">
+            <a class="link-codigo" href="https://github.com/FabiAmpuero/ejercicio-11/blob/master/js/main.js">Código de Javascript</a>
+        </div>   
+    </footer>
 </body>
 <script src="js/main.js"></script>
 </html>

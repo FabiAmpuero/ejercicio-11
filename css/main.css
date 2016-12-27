@@ -11,25 +11,54 @@ body {
 }
 .titulo {
     flex-shrink: 100px;
-    color: aqua;
+    color: #ff5ed4;
 }
 input {
     color: #000;
 }
 .btn {
     color: #123ac1;
-    background: aqua;
+    background: #ff5ed4;
     border: none;
     font-size: 25px;
 }
 .btn:hover {
     background: tomato;
     font-size: 25px;
+    color: #fff;
 }
 label {
     font-size: 20px;
-    color: #d8d8d8;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
 }
 .row {
     padding-bottom: 10px;
+}
+.link-codigo {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    display: block;
+    font-family: "Amatic SC";
+}
+.link-codigo:hover {
+    color: red;
+    text-decoration: none;
+}
+.btn-links {
+    color: #123ac1;
+    font-size: 23px;
+    background: #ff5ed4;
+    padding: 8px;
+    border-radius: 5px;
+}
+.btn-links:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.btn-sgte {
+    float: right;
 }

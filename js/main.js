@@ -13,17 +13,21 @@ function evaluar(){
         if (parametroNegativo == "1"){
             if(valorA<0 && valorB<0){
                 salida.innerHTML = "1";
+                salidaDos.innerHTML = "Genial!!!";
             }
             else{
                 salida.innerHTML = "0";
+                salidaDos.innerHTML = "Sigue probando";
             }
         }
         if(parametroNegativo == "2"){
             if((valorA<0 && valorB>0)||(valorA>0 && valorB<0)){
                 salida.innerHTML = "1";
+                salidaDos.innerHTML = "Genial!!!";
             }
             else{
                 salida.innerHTML = "0";
+                salidaDos.innerHTML = "Sigue probando";
             }
         }
     }
