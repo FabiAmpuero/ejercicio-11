@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Courgette|Dancing+Script|Irish+Grover|Poiret+One" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Positivo/Negativo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center titulo">Positivo/ Negativo</h1>
+                <hr>
+                <p class="text-center" style="font-size:25px">Retorna 1 si uno es positivo y el otro negativo, excepto si el parametro negativo es true, entonces retorna 1 si ambos son negativos, caso contrario retorna 0.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label for="valor_a">Valor A: </label>
+                <input type="text" id="valor_a" placeholder="0">
+            </div>
+            <div class="col-md-4">
+                <label for="valor_b">Valor B: </label>
+                <input type="text" id="valor_b" placeholder="0">
+            </div>
+            <div class="col-md-4">
+                <label for="parametro">Negativo </label>
+                <select class="form-control" id="parametro">
+                    <option value="1">True</option>
+                    <option value="2">False</option>
+                </select>
+            </div>
+        </div>
+        <h3 class="text-center">¿Suma 10?</h3>
+        <h1 id="salida" class="text-center"></h1>
+        <h2 id="salidaDos" class="text-center alert-danger"></h2>
+        
+        <p class="text-center"><button onclick="evaluar()" class="btn">Calcular</button></p>
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
